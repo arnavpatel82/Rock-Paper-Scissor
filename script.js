@@ -31,7 +31,15 @@ function round(playerSelection, computerSelection) {
 }
 
 
-console.log(round("paper", "Paper"))
+function game() {
+    for (let i = 0; i < 5; i++) {
+        let choice = prompt("Make your choice:");
+        alert(round(choice, computerPlays(3)));
+    }
+}
+
+
+game()
 
 
 
