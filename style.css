@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: auto;
+}
+
+.flex-container button {
+    background: peachpuff;
+    border: 8px solid;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    font-size: 100px;
+}
+
+#rock {
+    border-color: darkblue;
+}
+
+#paper {
+    border-color: darkred;
+}
+
+#scissor {
+    border-color: darkgreen;
+}
