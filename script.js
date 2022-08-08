@@ -39,7 +39,26 @@ function game() {
 }
 
 
-game()
+const rock_btn = document.querySelector('#rock');
+rock_btn.addEventListener('click', function () {
+    console.log(round('Rock', computerPlays(3)));
+});
+
+const paper_btn = document.querySelector('#paper');
+paper_btn.addEventListener('click', function () {
+    console.log(round('Paper', computerPlays(3)));
+});
+
+const scissor_btn = document.querySelector('#scissor');
+scissor_btn.addEventListener('click', function () {
+    console.log(round('Scissor', computerPlays(3)));
+});
+
+
+
+
+
+// game()
 
 
 
